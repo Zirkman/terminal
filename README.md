@@ -20,7 +20,7 @@ A Model Context Protocol (MCP) server that enables execution of terminal command
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/stat-guy/terminal.git
+git clone <your-repo-url>
 cd terminal
 ```
 
@@ -49,7 +49,7 @@ Add the following configuration:
     "terminal": {
       "command": "node",
       "args": [
-        "[PATH_TO_REPO]/dist/index.js"
+        "/absolute/path/to/terminal/dist/index.js"
       ],
       "env": {
         "PERMISSION_REQUIRED": "true"
@@ -59,7 +59,7 @@ Add the following configuration:
 }
 ```
 
-Replace `[PATH_TO_REPO]` with the actual path to your cloned repository.
+Replace `/absolute/path/to/terminal/` with the actual path to your cloned repository.
 
 2. Restart Claude Desktop
 
